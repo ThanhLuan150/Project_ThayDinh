@@ -1,3 +1,4 @@
+<?php 
 if (isset($_GET['delete']) && ($_GET['delete'] >= 0)) {
     array_splice($_SESSION['students'], $_GET['delete'], 1);
 }
